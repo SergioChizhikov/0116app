@@ -3,7 +3,7 @@ import { Profile } from "./components/Profile";
 import { Messages } from "./components/Messages";
 import { Friends } from "./components/Friends";
 import { Settings } from "./components/Settings";
-import { getUser } from "./state";
+
 
 function App(props) {
   // console.log(props);
