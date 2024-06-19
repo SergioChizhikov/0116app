@@ -28,10 +28,10 @@ function App(props) {
         </div>
         <div className="col-9">
           <Routes>
-            <Route path="/" element={<h2>Вы в личном кабинете. Выбор в меню слева.</h2>}/>
-            <Route path="/profile" element={<Profile function={props.function} />} />
+            <Route path="/" element={<h2>Вы в личном кабинете. Выбор в меню слева.</h2>} />
+            <Route path="/profile" element={<Profile function={props.users.key_getUser} />} />
             <Route path="/messages" element={<Messages />} />
-            <Route path="/friends" element={<Friends />} />
+            <Route path="/friends" element={<Friends function={props.users.key_getUsers} />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>
