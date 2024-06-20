@@ -2,7 +2,7 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import { Profile } from "./components/Profile";
 import { Messages } from "./components/Messages";
 import { Friends } from "./components/Friends";
-import { Settings } from "./components/Settings";
+import  Settings  from "./components/Settings";
 
 
 function App(props) {

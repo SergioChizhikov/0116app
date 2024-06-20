@@ -1,10 +1,14 @@
+import { NavLink } from "react-router-dom";
+
 const TableRow = (props) => {
   return (
     <tr>
       <th scope="row">{props.index + 1}</th>
       <td>{props.id}</td>
       <td>
-        {props.name} {props.lastname}
+        <NavLink to={"/profile/" + props.id}>
+          {props.name} {props.lastname}
+        </NavLink>
       </td>
       <td>{props.email}</td>
     </tr>
