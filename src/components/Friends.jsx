@@ -21,7 +21,7 @@ export const Friends = (props) => {
   return (
     <div className="row">
       <div className="col-12">
-        <table className="table">
+        <table className="table table-hover">
           <thead>
             <tr>
               <th scope="col">#</th>
